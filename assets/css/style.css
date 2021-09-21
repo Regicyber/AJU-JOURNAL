@@ -317,6 +317,18 @@ div#preloader {
     background: rgba(0, 0, 0, 0.7);
 }
 
+.fixed-top {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+.p-3 {
+    padding: 0rem !important;
+}
+
 @media (min-width: 1025px) {
     .header-bg {
         background-attachment: fixed;
@@ -334,7 +346,7 @@ div#preloader {
 */
 
 .navbar {
-    padding: 0;
+    padding-top: 16%;
 }
 
 .navbar ul {
@@ -386,7 +398,7 @@ div#preloader {
     z-index: 99;
     opacity: 0;
     visibility: hidden;
-    background: #fff;
+    background: rgb(129, 125, 125);
     box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
     transition: 0.3s;
 }
